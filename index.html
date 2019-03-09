@@ -1,52 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
   <title>Slick Playground</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="./slick/slick.css">
   <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
-  <style type="text/css">
-    html, body {
-      margin: 0;
-      padding: 0;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    .slider {
-        width: 50%;
-        margin: 100px auto;
-    }
-
-    .slick-slide {
-      margin: 0px 20px;
-    }
-
-    .slick-slide img {
-      width: 100%;
-    }
-
-    .slick-prev:before,
-    .slick-next:before {
-      color: black;
-    }
-
-
-    .slick-slide {
-      transition: all ease-in-out .3s;
-      opacity: .2;
-    }
-    
-    .slick-active {
-      opacity: .5;
-    }
-
-    .slick-current {
-      opacity: 1;
-    }
-  </style>
 </head>
 <body>
     <header>
@@ -82,8 +40,10 @@
     </div>
   </section>
 
-<h2>portfolio/experience</h2>
+
   <div class="portfolio">
+    <h2>portfolio/experience</h2>
+    <div class=""></div>
     <h3><img src="http://placehold.it/380x380?text=1-380w" alt="wordpress"></h3>
     <p>wordpressでブログを作成しました。プラグインには____</p>
 
@@ -92,19 +52,41 @@
 
     <h3><img src="http://placehold.it/380x380?text=3-380w"></h3>
     <p>○○訓練校に6ヶ月間通いました。<br>学んだことは、<br>・PHP<br>・Wordpress<br>……….</p>
-
+    
+    <p><a src="">すべて</a></p>
   </div>
-  <p>すべて</p>
+ 
+  <div class="profile">
+    <h2>profile</h2>
+    <table>
+      <tr>
+      <th>呼び名</th><td>ちひろ</td>
+      </tr>
+      <tr>
+      <th>職業</th><td>マーケッター</td>
+      </tr>
+      <tr>
+      <th>出身</th><td>東京</td>
+      </tr>
+      <tr>
+      <th>趣味</th><td>子猫</td>
+      </tr>
+      <tr>
+      <th>好きな言語</th><td>javascript</td>
+      </tr>
+      <tr>
+      <th>休日の過ごし方</th><td>ドットインストールの視聴</td>
+      </tr>
+    </table>
+  </div>
 
-  <h2>profile</h2>
-  <table>
-    <th>呼び名</th><td>ちひろ</td>
-    <th>職業</th><td>マーケッター</td>
-    <th>出身</th><td>東京</td>
-    <th>趣味</th><td>子猫</td>
-    <th>好きな言語</th><td>javascript</td>
-    <th>休日の過ごし方</th><td>ドットインストールの視聴</td>
-  </table>
+  <div class="contact">
+    <address>chihiro@dummymail.com</address>
+    <p>またはLINE@まで</p>
+  </div>!-- .contact --
+
+  <footer><small>Copylight©︎2019 Chihiro All Rights Reserved.</small></footer>
+
 
 
   <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
